@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insertion of image</title>
+<script src="jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+<form class="form-search" method="get" id="s" action="/">
+    <div class="input-append">
+        <input type="text" class="input-medium search-query" name="s" placeholder="Search" value="">
+        <button type="submit" class="add-on"><i class="icon-search"></i></button>
+    </div>
+</form>
+<form action="test.jsp" method="post">
+<div class="container">
+USER ID:<input type="text" id="uidq" name="uidq">
+</div><br> <br>
+<div class="container">
+USER NAME:<input type="text" id="unameq" name="unameq">
+</div><br><br>
+<div class="container">
+<input type="file" id="img" name="img">
+</div><br><br>
+<div class="container">
+<button type="submit" id="btn" name="btn">SUBMIT</button>
+</div>
+</form>
+</div>
+</body>
+</html>

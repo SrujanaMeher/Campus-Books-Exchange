@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+ <html class="ie6" lang="en-US"> <![endif]--><!--[if IE 7 ]> 
+<html class="ie7" lang="en-US"> <![endif]--><!--[if IE 8 ]>
+ <html class="ie8" lang="en-US"> <![endif]--><!--[if IE 9 ]>
+ <html class="ie9" lang="en-US"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--> 
+<html class="" lang="en-US"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="ISO-8859-1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CBX Home Page">
+    <meta name="author" content="Srujana Meher">
+
+<title>CBX</title>
+	 <link rel="icon" href="images/viit.jpg">
+	 <script src="jquery.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+     <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link href="styles.css" rel="stylesheet">
+     
+</head>
+
+<body>
+<!-- navigation bar -->
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="cbxmain.html">CBX</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="cbxmain.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="e-learning.jsp"><span class="glyphicon glyphicon-education"></span> E-Learning</a></li>
+        <li><a href="forum.jsp"><span class="glyphicon glyphicon-comment"></span> Forums</a></li>
+        <li><a href="cbxpost.html"><span class="glyphicon glyphicon-shopping-cart"></span> Post An Add</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="cbxsignin.html"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="cbxreg.html"><span class="glyphicon glyphicon-lock"></span> Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- end of navigation -->
+
+<!-- carousel -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    	<!-- Indicators -->
+   		 <ol class="carousel-indicators">
+      		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      		<li data-target="cbxreg.html" data-slide-to="1"></li>
+      		<li data-target="cbxpost.html" data-slide-to="2"></li>
+      		<li data-target="forum.jsp" data-slide-to="3"></li>
+   		 </ol>
+
+    	<!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+    	<div class="item active">
+        <img src="images/lib4.jpg" alt="Image">
+        <div class="carousel-caption text-center">
+          <p id="car5"> WELCOME<br>TO<br><label id="car6">CAMPUS BOOKS eXCHANGE</label></p>
+          <p id="car1">"A book is a device to ignite the imagination."</p>
+        </div>      
+       </div>
+
+      <div class="item">
+        <img src="images/lib1.jpg" alt="Image">
+        <div class="carousel-caption text-center">
+          <h1  id="car2">"Become a member and explore more"</h1><br>
+          <p><a class="btn btn-lg btn-primary" href="cbxreg.html" role="button"> Sign Up Today </a></p>
+        </div>      
+      </div>
+      
+      <div class="item">
+        <img src="images/lib.jpg" alt="Image">
+        <div class="carousel-caption text-center">
+          <h1 id="car3">Get all you are looking for: "Everthing you want and everything you need!"</h1><br>
+          <p><a class="btn btn-lg btn-primary" href="cbxpost.html" role="button"> Post An Add </a></p>
+        </div>      
+      </div>
+      
+      <div class="item">
+        <img src="images/forum1.jpg" alt="Image">
+        <div class="carousel-caption text-center">
+          <h3>Forums give your audience a place to share 
+          their ideas and explore the subject matter outside of the traditional eLearning environment. </h3>
+          <h1  id="car4">"Share and Multiply your knowledge...!!!"</h1><br>
+          <p><a class="btn btn-lg btn-primary" href="forum.jsp" role="button">  Discuss </a></p>
+        </div>      
+      </div>
+  	</div>
+<!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- end of carousel --> 
+
+<div class="container text-center"> 
+<div class="well well1">   
+  <h3>Explore The Categories..!!</h3><br>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-sm-5"><br>
+      <img src="images/acad.jpg" class="img-responsive blur" style="width:100%" alt="Image">
+     <div class="image-caption text-center">
+          <h1>"Academic Books!"</h1>
+          <p><a class="btn btn-lg btn-primary" href="display.jsp" role="button"> Search </a></p>
+        </div> 
+    </div><br>
+    <div class="col-md-6 col-sm-5"> 
+      <img src="images/ref.jpg" class="img-responsive blur" style="width:100%" alt="Image">
+      <div class="image-caption text-center">
+          <h1>"Reference Books!"</h1>
+          <p><a class="btn btn-lg btn-primary" href="display.jsp" role="button"> Search </a></p>
+        </div>  
+      </div>
+    </div>
+    <br>
+    <div class="row">
+    <div class="col-md-6 col-sm-5"><br>
+      <img src="images/comic.jpg" class="img-responsive blur" style="width:100%" alt="Image">
+      <div class="image-caption text-center">
+          <h1>"Comics!"</h1>
+          <p><a class="btn btn-lg btn-primary" href="display.jsp" role="button"> Search </a></p>
+        </div>
+     </div><br>
+    <div class="col-md-6 col-sm-5"> 
+      <img src="images/nonfic.jpg" class="img-responsive blur" style="width:100%" alt="Image">
+      <div class="image-caption text-center">
+          <h1>"Non-Fiction Books!"</h1>
+          <p><a class="btn btn-lg btn-primary" href="display.jsp" role="button"> Search </a></p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+ 
+<footer class="container-fluid ">
+  <p class="foot"> &copy; 2016 Srujana Meher 
+  <a href="#" > <img src="icons/facebook.png" class="fb"></img></a>
+ <a href="#" > <img src="icons/twitter.png" class="twt"></img></a>
+ <a href="#" > <img src="icons/googleplus.png" class="gp"></img></a>
+</p>
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Uploading Your File</title>
+<link rel="icon" href="images/viit.jpg" />
+	 <script src="jquery.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+     <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+     <link href="styles.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="container">
+<div class="col-md-12">
+<div class="panel panel-primary pn2">
+  <div class="panel-heading">
+    <h3 class="panel-title">SHARE MORE AND GAIN MORE!</h3>
+  </div>
+  <div class="panel-body">
+   <form class="form-horizontal" action="upload.jsp" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">FILE ID:</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="file_id" placeholder="FILE ID MUST BE ENTERED">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="filename" class="col-sm-2 control-label">FILE NAME:</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="filename" name="filename" placeholder="ENTER FILE NAME">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="fdata" class="col-sm-2 control-label">FILE:</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="fdata" name="fdata">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="fcategory" class="col-sm-2 control-label">FILE CATEGORY:</label>
+    <div class="col-sm-8">
+      <select class="form-control" id="fcategory" name="fcategory">
+  			<option value="-1">Choose Category of file</option>
+  			<option value="EB's">E-Books or PDF's</option>
+  			<option value="PYP">Previous Year Question Papers</option>
+  			<option value="CM">Classroom Material</option>
+  	</select>
+   </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">UPLOAD</button>
+    </div>
+  </div>
+</form>
+  </div>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
